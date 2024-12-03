@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            Portfolio
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="#services">Meus serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div id="headerCta">
+            <h1>
+                Olá, meu nome <br>
+                é Maria
+            </h1>
+            <p>
+                Sou programadora e gostaria de apresentar meu <br>
+                trabalho para você através deste portfólio.
+            </p>
+            <a href="">Meus serviços</a>
+        </div>
+        <div id="headerImg">
+            <img src="img/header.svg" alt="cuié-foto">
+        </div>
+    </div>
+    <div class="container">
+        <div id="clientes-frase">
+            <p>
+                Alguns dos <br>
+                meus clientes
+            </p>
+        </div>
+        <div class="clients" id="apple">
+            <a href="https://www.apple.com/" target="_blank"><img src="img/apple.svg" alt="apple-logo"></a>
+        </div>
+        <div class="clients" id="slack">
+            <a href="https://slack.com/intl/pt-br/" target="_blank"><img src="img/slack.svg" alt="slack-logo"></a>
+        </div>
+        <div class="clients" id="spotify">
+            <a href="https://www.spotify.com" target="_blank"><img src="img/spotify.svg" alt="spotify-logo"></a>
+        </div>
+    </div>
+    <div id="services" class="container">
+        <div id="conheca-ms">
+            <h2 class="red">Conheça</h2>
+            <h1 class="black">Meus Serviços</h1>
+            <p class="gray">Vou ajudar a sua empresa a <br>
+                alcançar grandes resultados.</p>
+        </div>
+    </div>
+    <div id="iconsContainer" class="container">
+        <div class="textCenter">
+            <img src="img/icon1.svg">
+            <h3>Consultoria</h3>
+            <p class="gray">
+                Te ajudo a organizar sua empresa <br>
+                e melhorar seus resultados.
+            </p>
+        </div>
+        <div class="textCenter">
+            <img src="img/icon2.svg">
+            <h3>Email Marketing</h3>
+            <p class="gray">
+                Gerenciar campanhas é difícil. <br>
+                Conte comigo para te ajudar.
+            </p>
+        </div>
+        <div class="textCenter">
+            <img src="img/icon3.svg">
+            <h3>Criação de Sites</h3>
+            <p class="gray">
+                Desenvolvo seu site inteiro <br>
+                do zero e te entrego prontinho.
+            </p>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <div id="contactImg">
+            <img src="img/imgContact.svg">
+        </div>
+        <div id="contactForm">
+            <h2 class="red">Economize seu tempo</h2>
+            <h1 class="black">Ganhe mais dinheiro</h1>
+            <p class="gray">
+                Digite aqui seu endereço de e-mail. Eu entrarei em<br>
+                contato para fornecer um diagnóstico gratuito.
+            </p>
+            <form action="https://formspree.io/f/mbljdqkn" method="POST">
+                <div id="input-div">
+                    <input name="contactEmail" type="text" placeholder="E-mail" required="required">
+                </div>
+                <div id="button-div">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="container" id="portfolio">
+        <div id="conheca-myjobs-portfolio">
+            <h2 class="red">Conheça meu trabalho</h2>
+            <h1 class="black">Portfolio</h1>
+        </div>
+    </div>
+    <div class="container" id="containerImgs">
+        <div class="portfolioImgs">
+            <img src="img/portfolioImg1.svg">
+        </div>
+        <div class="portfolioImgs">
+            <img src="img/portfolioImg2.svg">
+        </div>
+        <div class="portfolioImgs">
+            <img src="img/portfolioImg3.svg">
+        </div>
+    </div>
+</body>
+</html>
